@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://your-fastapi-app.up.railway.app',
+    baseURL: 'financeapp.railway.internal',
 });
 
 export default api;
