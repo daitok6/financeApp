@@ -128,7 +128,7 @@ const App = () => {
                 <td>
                   {transaction.date}
                 </td>
-                <td>
+                <td className="hidden">
                   <div className="ms-auto">
                     <button type="submit" className="me-3 btn btn-info">
                       edit
