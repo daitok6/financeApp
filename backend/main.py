@@ -9,7 +9,7 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 origins = [
-    'finance.railway.internal',
+    'frontend-production-39ef.up.railway.app',
 ]
 
 app.add_middleware(
